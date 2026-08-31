@@ -1,0 +1,46 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+// Prisma 7 no longer accepts `url` here — the migration URL comes from
+// prisma.config.ts and the runtime connection from the driver adapter in
+// lib/prisma.ts.
+datasource db {
+  provider = "postgresql"
+}
+
+/// Type of enquiry, mirroring the "Art der Anfrage" field on the contact form.
+/// EMERGENCY drives the [NOTFALL] subject prefix on the notification email.
+enum EnquiryType {
+  REGULAR
+  EMERGENCY
+  BACKUP
+}
+
+/// One submission of the contact form. Fields follow section 8 of the
+/// client's website content documents (Kontaktformular – Felder).
+model ContactEnquiry {
+  id          String      @id @default(cuid())
+  company     String
+  name        String
+  position    String?
+  email       String
+  phone       String?
+  origin      String
+  destination String
+  material    String
+  frequency   String?
+  temperature String?
+  enquiryType EnquiryType
+  message     String?
+  /// Locale the form was submitted in (de | en | fr), so replies match.
+  locale      String
+  /// False only if the email notification could not be delivered, so that
+  /// undelivered enquiries can be found and followed up manually.
+  notified    Boolean     @default(false)
+  createdAt   DateTime    @default(now())
+
+  @@index([createdAt])
+  @@index([enquiryType])
+}
