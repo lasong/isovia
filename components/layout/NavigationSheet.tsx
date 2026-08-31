@@ -18,7 +18,6 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { NavMenu } from "@/components/layout/NavMenu";
-import { LanguageSwitcher } from "@/components/layout/LanguageSwitcher";
 
 export function NavigationSheet({
   locale,
@@ -59,7 +58,7 @@ export function NavigationSheet({
             alt={SITE.name}
             width={151}
             height={76}
-            className="h-9 w-auto"
+            className="h-12 w-auto"
           />
         </div>
 
@@ -77,10 +76,6 @@ export function NavigationSheet({
 
         <div className="mt-auto space-y-4 p-5">
           <Separator />
-          <LanguageSwitcher
-            current={locale}
-            label={content.common.languageLabel}
-          />
           <Button variant="accent" className="w-full" asChild>
             <a href={`tel:${SITE.phone.raw}`} onClick={close}>
               <Phone />

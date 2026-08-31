@@ -26,12 +26,15 @@ Gewährleistung eines störungsfreien Betriebs sowie der IT-Sicherheit unserer S
 ## 4. Hosting und Datenbank
 
 Diese Website wird bei **Salesforce, Inc. (Heroku)**, 415 Mission Street, San Francisco, CA 94105, USA,
-gehostet. Die über diese Website erfassten personenbezogenen Daten werden auf den Servern des
-Hosting-Anbieters sowie in einer dort betriebenen PostgreSQL-Datenbank (Heroku Postgres) gespeichert.
+in der **Region Europa (Rechenzentrum Irland)** betrieben. Die über diese Website erfassten
+personenbezogenen Daten – insbesondere die Angaben aus dem Kontaktformular – werden auf Servern in
+Irland sowie in einer dort betriebenen PostgreSQL-Datenbank (Heroku Postgres) gespeichert.
 
 Der Hosting-Anbieter wird für uns als Auftragsverarbeiter im Rahmen eines Vertrags gemäß Art. 28 DSGVO
-tätig. Da hierbei eine Verarbeitung in einem Drittland (USA) stattfinden kann, erfolgt die Übermittlung
-auf Grundlage der EU-Standardvertragsklauseln (Art. 46 Abs. 2 lit. c DSGVO) sowie ergänzender
+tätig. Salesforce ist ein US-amerikanisches Unternehmen. Nach Angaben des Anbieters können einzelne
+technische Vorgänge – insbesondere Datenbank-Sicherungen sowie System- und Anwendungsprotokolle – auch
+in den USA verarbeitet werden. Soweit dabei eine Übermittlung in ein Drittland stattfindet, erfolgt
+diese auf Grundlage der EU-Standardvertragsklauseln (Art. 46 Abs. 2 lit. c DSGVO) sowie ergänzender
 Schutzmaßnahmen. Rechtsgrundlage für den Einsatz ist unser berechtigtes Interesse an einem sicheren und
 zuverlässigen Betrieb unserer Website (Art. 6 Abs. 1 lit. f DSGVO).
 
@@ -39,8 +42,12 @@ zuverlässigen Betrieb unserer Website (Art. 6 Abs. 1 lit. f DSGVO).
 
 Für den Versand der Benachrichtigungen zu eingegangenen Transportanfragen setzen wir
 **Resend, Inc.**, 2261 Market Street, San Francisco, CA 94114, USA, als Auftragsverarbeiter ein.
-Dabei werden die von Ihnen im Kontaktformular angegebenen Daten an Resend übermittelt, um die Nachricht an
-unser Betriebspostfach zuzustellen. Auch hier erfolgt die Übermittlung in ein Drittland auf Grundlage der
+Dabei werden die von Ihnen im Kontaktformular angegebenen Daten an Resend übermittelt, um die Nachricht
+an unser Betriebspostfach zuzustellen.
+
+Der Versand erfolgt über die **europäische Region (Irland)**. Nach Angaben des Anbieters werden
+Kontodaten, E-Mail-Metadaten und Protokolle unabhängig von der gewählten Versandregion in den USA
+gespeichert. Die Übermittlung in ein Drittland erfolgt daher auf Grundlage der
 EU-Standardvertragsklauseln (Art. 46 Abs. 2 lit. c DSGVO).
 
 ## 6. Kontaktaufnahme und Transportanfragen

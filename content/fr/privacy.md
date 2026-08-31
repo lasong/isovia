@@ -26,22 +26,31 @@ pas combinées avec d'autres sources de données.
 
 ## 4. Hébergement et base de données
 
-Ce site web est hébergé par **Salesforce, Inc. (Heroku)**, 415 Mission Street, San Francisco, CA 94105,
-États-Unis. Les données personnelles collectées sur ce site sont stockées sur les serveurs de
-l'hébergeur ainsi que dans une base de données PostgreSQL (Heroku Postgres) qui y est exploitée.
+Ce site web est exploité chez **Salesforce, Inc. (Heroku)**, 415 Mission Street, San Francisco, CA
+94105, États-Unis, dans la **région Europe (centre de données en Irlande)**. Les données personnelles
+collectées sur ce site — en particulier les informations transmises via le formulaire de contact — sont
+stockées sur des serveurs situés en Irlande ainsi que dans une base de données PostgreSQL
+(Heroku Postgres) qui y est exploitée.
 
 L'hébergeur agit pour notre compte en tant que sous-traitant dans le cadre d'un contrat conforme à
-l'article 28 du RGPD. Un traitement pouvant avoir lieu dans un pays tiers (États-Unis), le transfert
-s'appuie sur les clauses contractuelles types de l'UE (art. 46, § 2, point c) du RGPD) ainsi que sur des
-mesures de protection complémentaires. La base juridique de cette utilisation est notre intérêt légitime
-à un fonctionnement sûr et fiable de notre site (art. 6, § 1, point f) du RGPD).
+l'article 28 du RGPD. Salesforce est une société américaine. Selon les indications du prestataire,
+certaines opérations techniques — notamment les sauvegardes de la base de données ainsi que les
+journaux système et applicatifs — peuvent également être traitées aux États-Unis. Dans la mesure où un
+transfert vers un pays tiers a lieu, celui-ci s'appuie sur les clauses contractuelles types de l'UE
+(art. 46, § 2, point c) du RGPD) ainsi que sur des mesures de protection complémentaires. La base
+juridique de cette utilisation est notre intérêt légitime à un fonctionnement sûr et fiable de notre
+site (art. 6, § 1, point f) du RGPD).
 
 ## 5. Envoi d'e-mails
 
 Pour l'envoi des notifications relatives aux demandes de transport reçues, nous faisons appel à
 **Resend, Inc.**, 2261 Market Street, San Francisco, CA 94114, États-Unis, en qualité de sous-traitant.
-Les données que vous indiquez dans le formulaire de contact sont transmises à Resend afin de délivrer le
-message à notre boîte d'exploitation. Ce transfert vers un pays tiers repose également sur les clauses
+Les données que vous indiquez dans le formulaire de contact sont transmises à Resend afin de délivrer
+le message à notre boîte d'exploitation.
+
+L'envoi est acheminé via la **région européenne (Irlande)**. Selon les indications du prestataire, les
+données de compte, les métadonnées des e-mails et les journaux sont stockés aux États-Unis, quelle que
+soit la région d'envoi sélectionnée. Ce transfert vers un pays tiers repose donc sur les clauses
 contractuelles types de l'UE (art. 46, § 2, point c) du RGPD).
 
 ## 6. Contact et demandes de transport

@@ -37,7 +37,7 @@ export function Header({
         <Separator />
       </div>
 
-      <div className="container-page flex h-16 items-center justify-between gap-6 lg:h-20">
+      <div className="container-page flex h-20 items-center justify-between gap-4 lg:h-24 lg:gap-6">
         <Link
           href={href(locale, "home")}
           className="flex items-center"
@@ -49,7 +49,7 @@ export function Header({
             width={151}
             height={76}
             priority
-            className="h-9 w-auto lg:h-11"
+            className="h-12 w-auto lg:h-16"
           />
         </Link>
 
@@ -60,7 +60,12 @@ export function Header({
           aria-label={content.nav.home}
         />
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 sm:gap-3">
+          <LanguageSwitcher
+            current={locale}
+            label={content.common.languageLabel}
+            className="lg:hidden"
+          />
           <Button variant="accent" size="sm" className="hidden sm:inline-flex" asChild>
             <a href={`tel:${SITE.phone.raw}`}>
               <Phone />

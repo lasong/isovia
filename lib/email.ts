@@ -1,4 +1,5 @@
 import "server-only";
+import { createElement } from "react";
 import { Resend } from "resend";
 import {
   EnquiryNotification,
@@ -7,8 +8,6 @@ import {
 import { SITE } from "@/lib/site";
 
 /**
- * Sends the enquiry notification to Operations.
- *
  * Throws on failure. The caller in actions/contact.ts deliberately swallows
  * that: by then the enquiry is already committed to the database, and telling
  * someone their time-critical request failed when it is safely stored would be
@@ -42,9 +41,10 @@ export async function sendEnquiryNotification(
   const { error } = await resend.emails.send({
     from: `${fromName} <${fromEmail}>`,
     to: [to],
+    // Lets Operations reply straight to the enquirer.
     replyTo: props.email,
     subject,
-    react: EnquiryNotification(props),
+    react: createElement(EnquiryNotification, props),
   });
 
   if (error) {

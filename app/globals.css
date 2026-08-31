@@ -9,13 +9,6 @@
    the institutional/clinical trust work; coral (#F07144) is the seahorse mark
    and is reserved almost entirely for urgency, so "Notfall & Backup" reads as
    the visual centre of gravity.
-
-   Typography follows the ISOVIA brochure, which is entirely sans-serif:
-   Acumin Pro Bold for headlines and the tracked-out coral subhead, Arial for
-   body copy. Acumin Pro is an Adobe Font that cannot be self-hosted, so
-   display text uses Archivo — the closest free grotesque in the same
-   Franklin/Univers lineage. Body copy uses the Arial system stack exactly as
-   the brochure does, which also means no webfont request for running text.
 --------------------------------------------------------------------------- */
 
 @theme inline {
@@ -42,10 +35,12 @@
   --color-success-tint: var(--success-tint);
   --color-footer: var(--footer);
 
-  --font-display: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
-  --font-body: Arial, "Helvetica Neue", Helvetica, ui-sans-serif, sans-serif;
-  --font-eyebrow: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
-  --font-sans: Arial, "Helvetica Neue", Helvetica, ui-sans-serif, sans-serif;
+  /* One family everywhere. Arial/Helvetica remain only as fallbacks for the
+     moment before the webfont loads. */
+  --font-display: Arial, "Helvetica Neue", sans-serif;
+  --font-body: Arial, "Helvetica Neue", sans-serif;
+  --font-eyebrow: Arial, "Helvetica Neue", sans-serif;
+  --font-sans: Arial, "Helvetica Neue", sans-serif;
 
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);

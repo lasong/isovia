@@ -23,22 +23,27 @@ IT security of our systems (Art. 6(1)(f) GDPR). This data is not combined with o
 
 ## 4. Hosting and database
 
-This website is hosted by **Salesforce, Inc. (Heroku)**, 415 Mission Street, San Francisco, CA 94105,
-USA. Personal data collected through this website is stored on the hosting provider's servers and in a
+This website is operated on **Salesforce, Inc. (Heroku)**, 415 Mission Street, San Francisco, CA 94105,
+USA, in the **Europe region (Ireland data centre)**. Personal data collected through this website — in
+particular the details submitted through the contact form — is stored on servers in Ireland and in a
 PostgreSQL database (Heroku Postgres) operated there.
 
 The hosting provider acts as a processor on our behalf under a data processing agreement pursuant to
-Art. 28 GDPR. As processing may take place in a third country (USA), the transfer is based on the EU
-Standard Contractual Clauses (Art. 46(2)(c) GDPR) together with supplementary safeguards. The legal basis
-for its use is our legitimate interest in the secure and reliable operation of our website
-(Art. 6(1)(f) GDPR).
+Art. 28 GDPR. Salesforce is a US company. According to the provider, certain technical operations — in
+particular database backups and system and application logs — may also be processed in the USA. Where
+such a transfer to a third country takes place, it is based on the EU Standard Contractual Clauses
+(Art. 46(2)(c) GDPR) together with supplementary safeguards. The legal basis for its use is our
+legitimate interest in the secure and reliable operation of our website (Art. 6(1)(f) GDPR).
 
 ## 5. Email delivery
 
 To deliver notifications of incoming transport enquiries we use **Resend, Inc.**, 2261 Market Street,
-San Francisco, CA 94114, USA, as a processor. The details you provide in the contact form are transmitted
-to Resend in order to deliver the message to our operations mailbox. This transfer to a third country is
-likewise based on the EU Standard Contractual Clauses (Art. 46(2)(c) GDPR).
+San Francisco, CA 94114, USA, as a processor. The details you provide in the contact form are
+transmitted to Resend in order to deliver the message to our operations mailbox.
+
+Delivery is routed through the **European region (Ireland)**. According to the provider, account data,
+email metadata and logs are stored in the USA regardless of the sending region selected. This transfer
+to a third country is therefore based on the EU Standard Contractual Clauses (Art. 46(2)(c) GDPR).
 
 ## 6. Contact and transport enquiries
 
