@@ -171,29 +171,29 @@ export const en = {
       eyebrow: "Responsibility",
       title: "Commitment & ethics",
       intro:
-        "Radiopharmaceutical logistics operates at the intersection of medicine, radiation protection and transport law. Responsible conduct is therefore not an add-on for ISOVIA, but a fundamental requirement of our work.",
+        "Radiopharmaceutical logistics sits where medicine, radiation protection and transport law meet. Responsible conduct is the precondition for it, not an add-on.",
       commitment: {
         title: "Our commitment",
         items: [
           {
             title: "Reliability as a core principle",
-            body: "We are committed to treating every transport with the same level of care, regardless of time, day of the week, or urgency. Our processes are designed to remain stable, traceable and safe, even under time pressure.",
+            body: "Every transport gets the same care, whatever the hour or the urgency: stable, traceable, safe under pressure.",
           },
           {
             title: "Investment in digitalisation",
-            body: "ISOVIA consistently invests in digital tracking: GPS tracking, electronic proof of delivery (ePOD) and temperature monitoring provide full transparency throughout the entire transport process. This investment in modern telematics allows our customers to track the status of their shipment at any time – and allows us to respond early to any deviations.",
+            body: "GPS tracking, electronic proof of delivery (ePOD) and temperature monitoring run the whole journey: customers see status live, we catch deviations early.",
           },
           {
             title: "Availability when it matters",
-            body: "Radiopharmaceutical logistics does not follow conventional office hours. We are deliberately expanding our availability so that we are there when our customers need us – on weekends, in the evening, and in urgent situations. Where we cannot yet offer a service continuously, we communicate this openly rather than promising availability we cannot deliver.",
+            body: "No office hours apply here. We are extending cover into evenings, weekends and urgent call-outs, and say plainly where it is not yet continuous.",
           },
           {
             title: "Partnership-driven growth",
-            body: "ISOVIA grows together with its partners – including well-established players in the radiopharmaceutical industry. We see ourselves as a long-term partner, not a short-term service provider, and we continuously invest in expanding our capacity along the North Rhine-Westphalia – Hesse – Rhineland-Palatinate corridor and, in time, beyond it.",
+            body: "We grow as a long-term partner, not a short-term supplier, expanding capacity along the North Rhine-Westphalia – Hesse – Rhineland-Palatinate corridor.",
           },
           {
             title: "Responsibility to patients",
-            body: "At the end of every transport is a person waiting for an examination or a treatment. This awareness shapes our commitment: we do not simply deliver a package – we deliver a contribution to healthcare.",
+            body: "At the end of every transport, someone is waiting for a diagnosis or treatment. We move part of their care, not a package.",
           },
         ],
       },
@@ -202,23 +202,23 @@ export const en = {
         items: [
           {
             title: "Compliance & safety",
-            body: "We consistently align our processes with applicable regulations – in particular the German Radiation Protection Act (StrlSchG), the ADR dangerous goods regulations (Class 7), and the relevant requirements for documentation, labelling and driver qualification. Where a requirement is still being built out, we draw a clear distinction between what ISOVIA already fulfils and what we are actively working towards – we only communicate certifications and capabilities that genuinely exist.",
+            body: "We work to the Radiation Protection Act (StrlSchG), ADR Class 7 and the rules on documentation, labelling and driver qualification, and claim only certifications we hold.",
           },
           {
             title: "Integrity and transparency",
-            body: "Our communication with customers, authorities and partners is honest and traceable. We do not promise availability, capacity or certifications we cannot deliver. Deviations, delays or incidents are communicated immediately and openly.",
+            body: "We are straight with customers, authorities and partners, and report deviations, delays and incidents as they happen.",
           },
           {
             title: "Confidentiality",
-            body: "We treat information about customers, routes, volumes and delivery relationships with strict confidentiality. The sensitive nature of radiopharmaceutical logistics requires careful handling of all operational and patient-related information throughout the entire transport chain.",
+            body: "Customers, routes, volumes and supply relationships stay confidential – as does every operational and patient-related detail.",
           },
           {
             title: "Radiation protection and duty of care",
-            body: "The responsible handling of radioactive materials is at the centre of our work. We work closely with qualified radiation protection experts and rely on clearly defined procedures for collection, transport, handover and incident management.",
+            body: "Handling radioactive material safely is the core of the job. With qualified experts, we follow defined procedures for collection, transport, handover and incidents.",
           },
           {
             title: "Responsibility to society",
-            body: "ISOVIA sees its work as a contribution to a functioning, dependable healthcare system in the region. We act on the principle that commercial success and responsible conduct are not mutually exclusive, but mutually reinforcing – especially in an environment where every decision ultimately affects a patient.",
+            body: "Reliable regional healthcare depends on logistics that hold. Commercial success and responsible conduct reinforce each other when a patient is on the receiving end.",
           },
         ],
       },

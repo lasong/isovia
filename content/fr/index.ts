@@ -175,29 +175,29 @@ export const fr = {
       eyebrow: "Responsabilité",
       title: "Engagement & éthique",
       intro:
-        "La logistique radiopharmaceutique se situe à la croisée de la médecine, de la radioprotection et du droit des transports. Un comportement responsable n'est donc pas une option pour ISOVIA, mais une condition fondamentale de notre activité.",
+        "La logistique radiopharmaceutique croise médecine, radioprotection et droit des transports. La responsabilité y est une condition préalable, non une option.",
       commitment: {
         title: "Notre engagement",
         items: [
           {
             title: "La fiabilité comme principe fondamental",
-            body: "Nous nous engageons à traiter chaque transport avec le même soin, quels que soient l'heure, le jour de la semaine ou le degré d'urgence. Nos processus sont conçus pour rester stables, traçables et sûrs, même sous pression temporelle.",
+            body: "Chaque transport reçoit le même soin, quels que soient l'heure ou l'urgence : stable, traçable et sûr, même sous pression.",
           },
           {
             title: "Investissement dans la numérisation",
-            body: "ISOVIA investit systématiquement dans le suivi numérique : le suivi GPS, la preuve de livraison électronique (ePOD) et le contrôle de la température garantissent une transparence totale tout au long du transport. Cet investissement dans une télématique moderne permet à nos clients de suivre à tout moment le statut de leur envoi — et nous permet de réagir rapidement en cas d'écart.",
+            body: "Suivi GPS, preuve de livraison électronique (ePOD) et contrôle de température couvrent tout le trajet : le client suit son envoi en direct, nous détectons les écarts tôt.",
           },
           {
             title: "Une disponibilité au moment opportun",
-            body: "La logistique radiopharmaceutique ne suit pas les horaires de bureau classiques. Nous élargissons délibérément notre disponibilité afin d'être présents lorsque nos clients ont besoin de nous — le week-end, le soir et dans les situations urgentes. Lorsque nous ne pouvons pas encore proposer un service en continu, nous le communiquons ouvertement plutôt que de promettre une disponibilité que nous ne pourrions pas garantir.",
+            body: "Ce métier ignore les horaires de bureau. Nous étendons notre disponibilité aux soirées, aux week-ends et aux urgences — et disons clairement où elle reste incomplète.",
           },
           {
             title: "Une croissance fondée sur le partenariat",
-            body: "ISOVIA se développe aux côtés de ses partenaires — dont des acteurs reconnus du secteur radiopharmaceutique. Nous nous considérons comme un partenaire à long terme, et non comme un simple prestataire ponctuel, et nous investissons continuellement dans le développement de nos capacités le long du corridor Rhénanie-du-Nord–Westphalie – Hesse – Rhénanie-Palatinat, puis au-delà.",
+            body: "Nous grandissons en partenaire de long terme, non en prestataire ponctuel, et étendons nos capacités le long du corridor Rhénanie-du-Nord–Westphalie – Hesse – Rhénanie-Palatinat.",
           },
           {
             title: "Une responsabilité envers les patients",
-            body: "Au bout de chaque transport se trouve une personne qui attend un examen ou un traitement. Cette conscience façonne notre engagement : nous ne livrons pas simplement un colis — nous apportons une contribution aux soins de santé.",
+            body: "Au bout de chaque transport, une personne attend un examen ou un traitement. Nous livrons une part de ses soins, pas un colis.",
           },
         ],
       },
@@ -206,23 +206,23 @@ export const fr = {
         items: [
           {
             title: "Conformité & sécurité",
-            body: "Nous alignons systématiquement nos processus sur la réglementation en vigueur — notamment la loi allemande sur la radioprotection (StrlSchG), le règlement ADR relatif au transport de marchandises dangereuses (classe 7), ainsi que les exigences applicables en matière de documentation, d'étiquetage et de qualification des conducteurs. Lorsqu'une exigence est encore en cours de mise en œuvre, nous établissons une distinction claire entre ce qu'ISOVIA remplit déjà et ce sur quoi nous travaillons activement — nous ne communiquons que sur des certifications et des capacités réellement acquises.",
+            body: "Nous appliquons la loi allemande sur la radioprotection (StrlSchG), l'ADR classe 7 et les exigences de documentation, d'étiquetage et de qualification — et n'annonçons que les certifications acquises.",
           },
           {
             title: "Intégrité et transparence",
-            body: "Notre communication avec les clients, les autorités et les partenaires est honnête et vérifiable. Nous ne promettons ni disponibilité, ni capacité, ni certification que nous ne pourrions pas garantir. Tout écart, retard ou incident est communiqué immédiatement et en toute transparence.",
+            body: "Notre communication avec les clients, les autorités et les partenaires est honnête. Tout écart, retard ou incident est signalé immédiatement.",
           },
           {
             title: "Confidentialité",
-            body: "Nous traitons les informations relatives aux clients, aux itinéraires, aux volumes et aux relations de livraison avec une stricte confidentialité. La nature sensible de la logistique radiopharmaceutique exige une gestion prudente de toutes les informations opérationnelles et liées aux patients tout au long de la chaîne de transport.",
+            body: "Clients, itinéraires, volumes et relations de livraison restent strictement confidentiels — comme toute information opérationnelle ou liée aux patients.",
           },
           {
             title: "Radioprotection et devoir de vigilance",
-            body: "La gestion responsable des matières radioactives est au cœur de notre activité. Nous travaillons en étroite collaboration avec des experts qualifiés en radioprotection et nous appuyons sur des procédures clairement définies pour la prise en charge, le transport, la remise et la gestion des incidents.",
+            body: "La gestion sûre des matières radioactives est au cœur de notre activité. Avec des experts qualifiés, nous suivons des procédures définies : prise en charge, transport, remise, incidents.",
           },
           {
             title: "Responsabilité envers la société",
-            body: "ISOVIA considère son activité comme une contribution à un système de santé fonctionnel et fiable dans la région. Nous agissons selon le principe que la réussite économique et le comportement responsable ne s'excluent pas mutuellement, mais se renforcent — en particulier dans un environnement où chaque décision a, en définitive, un impact sur un patient.",
+            body: "Une santé régionale fiable repose sur une logistique qui tient. Réussite économique et responsabilité se renforcent quand un patient est au bout de la chaîne.",
           },
         ],
       },

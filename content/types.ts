@@ -110,7 +110,7 @@ export type Content = {
       cta: string;
     };
 
-    /** #responsibility — sections 4 and 5 of the content documents, verbatim. */
+    /** #responsibility — sections 4 and 5 of the content documents, condensed. */
     responsibility: {
       eyebrow: string;
       title: string;
