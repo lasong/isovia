@@ -56,9 +56,9 @@ export function NavigationSheet({
           <Image
             src="/logo.svg"
             alt={SITE.name}
-            width={151}
-            height={76}
-            className="h-12 w-auto"
+            width={183}
+            height={60}
+            className="h-7 w-auto"
           />
         </div>
 

@@ -153,10 +153,6 @@ export const de = {
           "Patient",
         ],
       },
-      theranostics: {
-        title: "Theranostik-Logistik – ein Blick nach vorn",
-        body: "Wir bereiten uns gezielt auf die nächste Generation radiopharmazeutischer Logistik vor: die Theranostik mit therapeutischen Radionukliden wie Lu-177 und Ac-225. Wir bieten nur an, was wir operativ und regulatorisch tatsächlich leisten können.",
-      },
     },
 
     emergency: {
@@ -170,29 +166,29 @@ export const de = {
       eyebrow: "Verantwortung",
       title: "Engagement & Ethik",
       intro:
-        "Radiopharmazeutische Logistik bewegt sich im Schnittfeld von Medizin, Strahlenschutz und Transportrecht. Verantwortungsvolles Handeln ist für ISOVIA daher kein Zusatz, sondern Grundvoraussetzung unserer Tätigkeit.",
+        "Radiopharmazeutische Logistik bewegt sich im Schnittfeld von Medizin, Strahlenschutz und Transportrecht. Verantwortungsvolles Handeln ist dort Grundvoraussetzung, kein Zusatz.",
       commitment: {
         title: "Unser Engagement",
         items: [
           {
             title: "Zuverlässigkeit als Grundprinzip",
-            body: "Wir verpflichten uns, jeden Transport mit derselben Sorgfalt zu behandeln, unabhängig von Uhrzeit, Wochentag oder Dringlichkeit. Unsere Prozesse sind darauf ausgelegt, auch unter Zeitdruck stabil, nachvollziehbar und sicher zu bleiben.",
+            body: "Jeder Transport erhält dieselbe Sorgfalt, unabhängig von Uhrzeit und Dringlichkeit: stabil, nachvollziehbar und sicher, auch unter Zeitdruck.",
           },
           {
             title: "Investition in Digitalisierung",
-            body: "ISOVIA setzt konsequent auf digitale Nachverfolgung: GPS-Tracking, elektronischer Zustellnachweis (ePOD) und Temperaturüberwachung sorgen für volle Transparenz über den gesamten Transportverlauf. Diese Investition in moderne Telematik ermöglicht es unseren Kunden, den Status ihrer Sendung jederzeit nachzuvollziehen – und uns, frühzeitig auf Abweichungen zu reagieren.",
+            body: "GPS-Tracking, elektronischer Zustellnachweis (ePOD) und Temperaturüberwachung begleiten den gesamten Transport. Kunden sehen den Status jederzeit, wir erkennen Abweichungen früh.",
           },
           {
             title: "Verfügbarkeit, wenn sie gebraucht wird",
-            body: "Radiopharmazeutische Logistik kennt keine klassischen Bürozeiten. Wir bauen unsere Erreichbarkeit gezielt so aus, dass wir dann verfügbar sind, wenn unsere Kunden uns brauchen – an Wochenenden, am Abend und in dringenden Situationen. Wo wir eine Leistung noch nicht durchgängig anbieten können, kommunizieren wir das offen, statt Verfügbarkeiten zu versprechen, die wir nicht halten können.",
+            body: "Diese Arbeit kennt keine Bürozeiten. Wir bauen unsere Erreichbarkeit abends, an Wochenenden und im Notfall aus – und sagen offen, wo sie noch lückenhaft ist.",
           },
           {
             title: "Partnerschaftliches Wachstum",
-            body: "ISOVIA wächst gemeinsam mit seinen Partnern – darunter renommierte Akteure der radiopharmazeutischen Branche. Wir verstehen uns als langfristiger Partner, nicht als kurzfristiger Dienstleister, und investieren kontinuierlich in den Ausbau unserer Kapazitäten entlang des Korridors Nordrhein-Westfalen – Hessen – Rheinland-Pfalz sowie perspektivisch darüber hinaus.",
+            body: "Wir wachsen als langfristiger Partner, nicht als kurzfristiger Dienstleister, und bauen unsere Kapazitäten entlang des Korridors Nordrhein-Westfalen – Hessen – Rheinland-Pfalz weiter aus.",
           },
           {
             title: "Verantwortung gegenüber Patienten",
-            body: "Am Ende jedes Transports steht ein Mensch, der auf eine Untersuchung oder Behandlung wartet. Dieses Bewusstsein prägt unser Engagement: Wir liefern nicht einfach ein Paket – wir liefern einen Beitrag zur Gesundheitsversorgung.",
+            body: "Am Ende jedes Transports wartet ein Mensch auf Untersuchung oder Behandlung. Wir liefern kein Paket, sondern einen Teil seiner Versorgung.",
           },
         ],
       },
@@ -201,23 +197,23 @@ export const de = {
         items: [
           {
             title: "Compliance & Sicherheit",
-            body: "Wir richten unsere Prozesse konsequent an den geltenden Vorschriften aus – insbesondere dem Strahlenschutzgesetz (StrlSchG), der Gefahrgutverordnung Straße (ADR, Klasse 7) sowie den einschlägigen Anforderungen an Dokumentation, Kennzeichnung und Fahrerqualifikation. Wo eine Anforderung noch im Aufbau ist, unterscheiden wir klar zwischen dem, was ISOVIA bereits erfüllt, und dem, woran wir aktiv arbeiten – wir kommunizieren nur Zertifizierungen und Fähigkeiten, die tatsächlich bestehen.",
+            body: "Wir arbeiten nach Strahlenschutzgesetz (StrlSchG), ADR Klasse 7 und den Vorgaben zu Dokumentation, Kennzeichnung und Fahrerqualifikation – und nennen nur Zertifizierungen, die wir besitzen.",
           },
           {
             title: "Integrität und Transparenz",
-            body: "Unsere Kommunikation gegenüber Kunden, Behörden und Partnern ist ehrlich und nachvollziehbar. Wir versprechen keine Verfügbarkeiten, Kapazitäten oder Zertifizierungen, die wir nicht erfüllen können. Abweichungen, Verzögerungen oder Zwischenfälle werden unmittelbar und offen kommuniziert.",
+            body: "Gegenüber Kunden, Behörden und Partnern kommunizieren wir ehrlich. Abweichungen, Verzögerungen und Zwischenfälle melden wir sofort.",
           },
           {
             title: "Vertraulichkeit",
-            body: "Informationen zu Kunden, Routen, Mengen und Lieferbeziehungen behandeln wir streng vertraulich. Der sensible Charakter radiopharmazeutischer Logistik erfordert einen sorgsamen Umgang mit allen betrieblichen und patientenbezogenen Informationen entlang der gesamten Transportkette.",
+            body: "Kunden, Routen, Mengen und Lieferbeziehungen behandeln wir streng vertraulich – ebenso jede betriebliche und patientenbezogene Information.",
           },
           {
             title: "Strahlenschutz und Sorgfaltspflicht",
-            body: "Der verantwortungsvolle Umgang mit radioaktiven Materialien steht im Zentrum unserer Tätigkeit. Wir arbeiten dabei eng mit qualifizierten Strahlenschutzexperten zusammen und setzen auf klar definierte Abläufe für Übernahme, Transport, Übergabe und den Umgang mit Zwischenfällen.",
+            body: "Der sichere Umgang mit radioaktiven Materialien steht im Zentrum unserer Arbeit. Mit qualifizierten Strahlenschutzexperten folgen wir definierten Abläufen für Übernahme, Transport, Übergabe und Zwischenfälle.",
           },
           {
             title: "Verantwortung gegenüber der Gesellschaft",
-            body: "ISOVIA versteht seine Tätigkeit als Beitrag zu einer funktionierenden, verlässlichen Gesundheitsversorgung in der Region. Wir handeln nach dem Grundsatz, dass wirtschaftlicher Erfolg und verantwortungsvolles Handeln sich nicht ausschließen, sondern bedingen – besonders in einem Umfeld, in dem am Ende jeder Entscheidung ein Patient steht.",
+            body: "Eine verlässliche Gesundheitsversorgung in der Region hängt an einer Logistik, die trägt. Wirtschaftlicher Erfolg und Verantwortung bedingen einander – gerade wenn am Ende ein Patient steht.",
           },
         ],
       },
