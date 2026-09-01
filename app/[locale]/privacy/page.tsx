@@ -26,8 +26,12 @@ export default async function PrivacyPage({
   const markdown = await getLegalMarkdown(locale, "privacy");
 
   return (
-    <div className="container-prose py-16 lg:py-24">
-      <Markdown content={markdown} />
+    <div className="container-page py-16 lg:py-24">
+      {/* Same left gutter as the header, footer and every other page; the
+          measure is capped so the legal text stays readable. */}
+      <div className="max-w-3xl">
+        <Markdown content={markdown} />
+      </div>
     </div>
   );
 }
