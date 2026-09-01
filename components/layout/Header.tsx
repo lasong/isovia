@@ -38,6 +38,8 @@ export function Header({
       </div>
 
       <div className="container-page flex h-20 items-center justify-between gap-4 lg:h-24 lg:gap-6">
+        {/* logo.svg is trimmed to the artwork (no padding), so the height
+            class is the height of the lockup itself, not of a larger box. */}
         <Link
           href={href(locale, "home")}
           className="flex items-center"
@@ -46,10 +48,10 @@ export function Header({
           <Image
             src="/logo.svg"
             alt={`${SITE.name} — ${content.meta.tagline}`}
-            width={151}
-            height={76}
+            width={183}
+            height={60}
             priority
-            className="h-12 w-auto lg:h-16"
+            className="h-7 w-auto lg:h-9"
           />
         </Link>
 
