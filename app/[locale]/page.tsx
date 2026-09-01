@@ -261,14 +261,6 @@ export default async function HomePage({
             })}
           </ol>
         </div>
-
-        {/* Theranostics outlook */}
-        <div className="border-border mt-14 max-w-3xl border-l-2 pl-6">
-          <h3 className="text-primary text-lg">{services.theranostics.title}</h3>
-          <p className="text-muted-foreground mt-3 text-base leading-relaxed">
-            {services.theranostics.body}
-          </p>
-        </div>
       </section>
 
       {/* ----------------------------------------------------- Emergency band */}

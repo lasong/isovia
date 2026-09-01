@@ -158,10 +158,6 @@ export const fr = {
           "Patient",
         ],
       },
-      theranostics: {
-        title: "Logistique de la théranostique — un regard vers l'avenir",
-        body: "Nous nous préparons délibérément à la prochaine génération de logistique radiopharmaceutique : la théranostique, utilisant des radionucléides thérapeutiques tels que le Lu-177 et l'Ac-225. Nous ne proposons que ce que nous pouvons réellement assurer, sur le plan opérationnel comme réglementaire.",
-      },
     },
 
     emergency: {

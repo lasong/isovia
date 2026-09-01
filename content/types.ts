@@ -99,7 +99,6 @@ export type Content = {
         title: string;
         steps: string[];
       };
-      theranostics: LabelledItem;
     };
 
     /** Coral band between services and responsibility. */

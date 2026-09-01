@@ -154,10 +154,6 @@ export const en = {
           "Patient",
         ],
       },
-      theranostics: {
-        title: "Theranostics logistics – looking ahead",
-        body: "We are deliberately preparing for the next generation of radiopharmaceutical logistics: theranostics, using therapeutic radionuclides such as Lu-177 and Ac-225. We only offer what we can genuinely deliver, operationally and regulatorily.",
-      },
     },
 
     emergency: {
