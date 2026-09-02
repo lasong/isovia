@@ -41,14 +41,13 @@ zuverlässigen Betrieb unserer Website (Art. 6 Abs. 1 lit. f DSGVO).
 ## 5. E-Mail-Versand
 
 Für den Versand der Benachrichtigungen zu eingegangenen Transportanfragen setzen wir
-**Resend, Inc.**, 2261 Market Street, San Francisco, CA 94114, USA, als Auftragsverarbeiter ein.
-Dabei werden die von Ihnen im Kontaktformular angegebenen Daten an Resend übermittelt, um die Nachricht
+**Brevo SAS**, 106 boulevard Haussmann, 75008 Paris, Frankreich, als Auftragsverarbeiter ein.
+Dabei werden die von Ihnen im Kontaktformular angegebenen Daten an Brevo übermittelt, um die Nachricht
 an unser Betriebspostfach zuzustellen.
 
-Der Versand erfolgt über die **europäische Region (Irland)**. Nach Angaben des Anbieters werden
-Kontodaten, E-Mail-Metadaten und Protokolle unabhängig von der gewählten Versandregion in den USA
-gespeichert. Die Übermittlung in ein Drittland erfolgt daher auf Grundlage der
-EU-Standardvertragsklauseln (Art. 46 Abs. 2 lit. c DSGVO).
+Brevo ist ein französisches Unternehmen und verarbeitet die Daten auf Servern innerhalb der
+**Europäischen Union**. Eine Übermittlung in ein Drittland findet im Rahmen des E-Mail-Versands somit
+nicht statt. Mit Brevo besteht ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO.
 
 ## 6. Kontaktaufnahme und Transportanfragen
 

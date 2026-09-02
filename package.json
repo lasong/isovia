@@ -15,6 +15,7 @@
     "db:migrate": "prisma migrate dev"
   },
   "dependencies": {
+    "@getbrevo/brevo": "^6.0.3",
     "@hookform/resolvers": "^5.2.2",
     "@prisma/adapter-pg": "^7.10.0",
     "@prisma/client": "7.10.0",
@@ -37,7 +38,6 @@
     "react-hook-form": "7.87.0",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1",
-    "resend": "6.25.0",
     "server-only": "^0.0.1",
     "tailwind-merge": "^3.6.0",
     "zod": "4.5.4"

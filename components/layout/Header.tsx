@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Phone } from "lucide-react";
 import type { Content } from "@/content/types";
 import type { Locale } from "@/lib/i18n";
@@ -7,6 +6,7 @@ import { SITE, href } from "@/lib/site";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { LanguageSwitcher } from "@/components/layout/LanguageSwitcher";
+import { LogoLink } from "@/components/layout/LogoLink";
 import { NavMenu } from "@/components/layout/NavMenu";
 import { NavigationSheet } from "@/components/layout/NavigationSheet";
 
@@ -40,11 +40,7 @@ export function Header({
       <div className="container-page flex h-20 items-center justify-between gap-4 lg:h-24 lg:gap-6">
         {/* logo.svg is trimmed to the artwork (no padding), so the height
             class is the height of the lockup itself, not of a larger box. */}
-        <Link
-          href={href(locale, "home")}
-          className="flex items-center"
-          aria-label={SITE.name}
-        >
+        <LogoLink homeHref={href(locale, "home")} label={SITE.name}>
           <Image
             src="/logo.svg"
             alt={`${SITE.name} — ${content.meta.tagline}`}
@@ -53,7 +49,7 @@ export function Header({
             priority
             className="h-7 w-auto lg:h-9"
           />
-        </Link>
+        </LogoLink>
 
         <NavMenu
           locale={locale}

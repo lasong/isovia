@@ -37,13 +37,13 @@ legitimate interest in the secure and reliable operation of our website (Art. 6(
 
 ## 5. Email delivery
 
-To deliver notifications of incoming transport enquiries we use **Resend, Inc.**, 2261 Market Street,
-San Francisco, CA 94114, USA, as a processor. The details you provide in the contact form are
-transmitted to Resend in order to deliver the message to our operations mailbox.
+To deliver notifications of incoming transport enquiries we use **Brevo SAS**, 106 boulevard Haussmann,
+75008 Paris, France, as a processor. The details you provide in the contact form are transmitted to
+Brevo in order to deliver the message to our operations mailbox.
 
-Delivery is routed through the **European region (Ireland)**. According to the provider, account data,
-email metadata and logs are stored in the USA regardless of the sending region selected. This transfer
-to a third country is therefore based on the EU Standard Contractual Clauses (Art. 46(2)(c) GDPR).
+Brevo is a French company and processes the data on servers within the **European Union**. No transfer
+to a third country therefore takes place as part of email delivery. A data processing agreement
+pursuant to Art. 28 GDPR is in place with Brevo.
 
 ## 6. Contact and transport enquiries
 

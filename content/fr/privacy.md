@@ -44,14 +44,13 @@ site (art. 6, § 1, point f) du RGPD).
 ## 5. Envoi d'e-mails
 
 Pour l'envoi des notifications relatives aux demandes de transport reçues, nous faisons appel à
-**Resend, Inc.**, 2261 Market Street, San Francisco, CA 94114, États-Unis, en qualité de sous-traitant.
-Les données que vous indiquez dans le formulaire de contact sont transmises à Resend afin de délivrer
-le message à notre boîte d'exploitation.
+**Brevo SAS**, 106 boulevard Haussmann, 75008 Paris, France, en qualité de sous-traitant. Les données
+que vous indiquez dans le formulaire de contact sont transmises à Brevo afin de délivrer le message à
+notre boîte d'exploitation.
 
-L'envoi est acheminé via la **région européenne (Irlande)**. Selon les indications du prestataire, les
-données de compte, les métadonnées des e-mails et les journaux sont stockés aux États-Unis, quelle que
-soit la région d'envoi sélectionnée. Ce transfert vers un pays tiers repose donc sur les clauses
-contractuelles types de l'UE (art. 46, § 2, point c) du RGPD).
+Brevo est une société française qui traite les données sur des serveurs situés au sein de l'**Union
+européenne**. Aucun transfert vers un pays tiers n'a donc lieu dans le cadre de l'envoi des e-mails. Un
+contrat de sous-traitance conforme à l'article 28 du RGPD est conclu avec Brevo.
 
 ## 6. Contact et demandes de transport
 
