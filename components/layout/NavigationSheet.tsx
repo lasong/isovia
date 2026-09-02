@@ -8,7 +8,7 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Menu, Phone } from "lucide-react";
 import type { Content } from "@/content/types";
 import type { Locale } from "@/lib/i18n";
-import { SITE } from "@/lib/site";
+import { SITE, href } from "@/lib/site";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import {
@@ -18,6 +18,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { NavMenu } from "@/components/layout/NavMenu";
+import { LogoLink } from "@/components/layout/LogoLink";
 
 export function NavigationSheet({
   locale,
@@ -53,13 +54,19 @@ export function NavigationSheet({
         </VisuallyHidden>
 
         <div className="p-5">
-          <Image
-            src="/logo.svg"
-            alt={SITE.name}
-            width={183}
-            height={60}
-            className="h-7 w-auto"
-          />
+          <LogoLink
+            homeHref={href(locale, "home")}
+            label={SITE.name}
+            onNavigate={close}
+          >
+            <Image
+              src="/logo.svg"
+              alt={SITE.name}
+              width={183}
+              height={60}
+              className="h-7 w-auto"
+            />
+          </LogoLink>
         </div>
 
         <Separator />
