@@ -3,9 +3,9 @@
  * `satisfies Content`, so a missing or misnamed key is a build error rather
  * than a blank space on the live site.
  *
- * Services, About and Responsibility are anchored sections of the home page,
- * so their copy lives under `home` and appears exactly once. Nuclear medicine
- * and contact are real pages and keep their own groups.
+ * About and Responsibility are anchored sections of the home page, so their
+ * copy lives under `home` and appears exactly once. The two solutions, nuclear
+ * medicine and contact are real pages and keep their own groups.
  */
 
 export type LabelledItem = {
@@ -18,6 +18,32 @@ export type SeoMeta = {
   description: string;
 };
 
+export type ServiceArea = {
+  number: string;
+  title: string;
+  intro: string;
+  items: string[];
+};
+
+/**
+ * One of the two solutions, each its own page off the Services dropdown.
+ * `intro` names the customer the solution is for — that line is what keeps
+ * the two audiences apart.
+ */
+export type Solution = {
+  eyebrow: string;
+  title: string;
+  intro: string;
+  /** Alt text for the hero photograph, where the solution has one. */
+  imageAlt?: string;
+  areas: ServiceArea[];
+  /** Only radiopharmaceutical logistics runs production to patient. */
+  chain?: {
+    title: string;
+    steps: string[];
+  };
+};
+
 export type Content = {
   meta: {
     siteName: string;
@@ -25,6 +51,8 @@ export type Content = {
     /** Per-route metadata, keyed to the real routes only. */
     pages: {
       home: SeoMeta;
+      radiopharmaLogistics: SeoMeta;
+      lifeScienceLogistics: SeoMeta;
       nuclearMedicine: SeoMeta;
       contact: SeoMeta;
       imprint: SeoMeta;
@@ -36,7 +64,10 @@ export type Content = {
   nav: {
     home: string;
     about: string;
+    /** The dropdown label; it opens rather than linking anywhere. */
     services: string;
+    radiopharmaLogistics: string;
+    lifeScienceLogistics: string;
     responsibility: string;
     nuclearMedicine: string;
     contact: string;
@@ -84,24 +115,7 @@ export type Content = {
       };
     };
 
-    /** #services — the three service areas in full, no separate teaser. */
-    services: {
-      eyebrow: string;
-      title: string;
-      intro: string;
-      areas: {
-        number: string;
-        title: string;
-        intro: string;
-        items: string[];
-      }[];
-      chain: {
-        title: string;
-        steps: string[];
-      };
-    };
-
-    /** Coral band between services and responsibility. */
+    /** Coral band between about and responsibility. */
     emergency: {
       eyebrow: string;
       title: string;
@@ -139,6 +153,9 @@ export type Content = {
       primaryCta: string;
     };
   };
+
+  radiopharmaLogistics: Solution;
+  lifeScienceLogistics: Solution;
 
   nuclearMedicine: {
     eyebrow: string;

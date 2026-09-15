@@ -3,12 +3,23 @@ import type { Content } from "@/content/types";
 export const de = {
   meta: {
     siteName: "ISOVIA",
-    tagline: "Radiopharmazeutische Logistik & Notfalltransport",
+    tagline: "Radiopharmazeutische und Life Science Logistik",
     pages: {
       home: {
-        title: "ISOVIA – Radiopharmazeutische Logistik & Notfalltransport",
+        title: "ISOVIA – Radiopharmazeutische und Life Science Logistik",
         description:
           "Spezialisierter Logistik- und Beratungspartner für Radiopharmazeutika, Nuklearmedizin und Theranostik in Nordrhein-Westfalen, Hessen und Rheinland-Pfalz. Notfall- und Backup-Transporte mit kurzer Reaktionszeit.",
+      },
+      radiopharmaLogistics: {
+        title: "Radiopharmazeutische Logistik – Kurier, Notfall & Beratung | ISOVIA",
+        description:
+          "Planbarer Kurierdienst, Notfall- und Backup-Logistik sowie Beratung für Radiopharmazeutika in Nordrhein-Westfalen, Hessen und Rheinland-Pfalz.",
+      },
+
+      lifeScienceLogistics: {
+        title: "Life Science Logistik – Klinische Studien, Zell- & Gentherapie | ISOVIA",
+        description:
+          "Spezialisierte Logistik für den Life-Sciences-Sektor: zeitkritische Sendungen für klinische Studien, patientenbezogene Zell- und Gentherapie-Transporte und sensible Forschungsmaterialien.",
       },
       nuclearMedicine: {
         title: "Über Nuklearmedizin – PET, SPECT & Theranostik | ISOVIA",
@@ -36,6 +47,8 @@ export const de = {
     home: "Start",
     about: "Über uns",
     services: "Leistungen",
+    radiopharmaLogistics: "Radiopharmazeutische Logistik",
+    lifeScienceLogistics: "Life Science Logistik",
     responsibility: "Verantwortung",
     nuclearMedicine: "Nuklearmedizin",
     contact: "Kontakt",
@@ -58,7 +71,7 @@ export const de = {
 
   home: {
     hero: {
-      eyebrow: "Radiopharmazeutische Logistik & Notfalltransport",
+      eyebrow: "Radiopharmazeutische und Life Science Logistik",
       title: "Wenn Zeit zählt, wird Logistik",
       titleAccent: "Teil der Patientenversorgung.",
       subtitle:
@@ -92,66 +105,6 @@ export const de = {
         quote:
           "Ich habe ISOVIA gegründet, weil radiopharmazeutische Logistik mehr erfordert als Transport. Sie erfordert Verständnis für zeitkritische medizinische Abläufe, regulatorische Anforderungen und die Konsequenzen eines gescheiterten Transports.",
         imageAlt: "Porträt von Alain Mugabo, Gründer und Managing Partner von ISOVIA",
-      },
-    },
-
-    services: {
-      eyebrow: "Unsere Leistungen",
-      title: "Drei Leistungsbereiche, die aufeinander aufbauen",
-      intro:
-        "Der planbare Kurierdienst für Radiopharmazeutika, die Notfall- und Backup-Logistik als Kernstück unseres Angebots sowie Beratungs- und Logistiklösungen für Hersteller und größere Kunden.",
-      areas: [
-        {
-          number: "01",
-          title: "Radiopharmazeutischer Kurierdienst",
-          intro:
-            "Geplante und kurzfristig abrufbare Transporte für zeitkritische, radioaktive Präparate – dokumentiert und unter Einhaltung der geltenden Strahlenschutz- und Gefahrgutvorschriften (ADR Klasse 7), mit lückenloser Chain of Custody von der Radiopharmazie bis zur Einrichtung.",
-          items: [
-            "Fluor-18 (F-18)",
-            "Gallium-68 (Ga-68)",
-            "Technetium-99m (Tc-99m)",
-            "Lutetium-177 (Lu-177)",
-            "Iod-131 (I-131)",
-            "Weitere zugelassene Materialien nach Absprache",
-          ],
-        },
-        {
-          number: "02",
-          title: "Notfall & Backup-Logistik",
-          intro:
-            "Unser wichtigster Leistungsbereich: die verlässliche Absicherung, wenn der primäre Transportdienstleister ausfällt oder kurzfristig zusätzlicher Bedarf entsteht. Zeitkritische Radiopharmazeutika verzeihen keine Verzögerung.",
-          items: [
-            "Notfalltransporte mit kurzer Reaktionszeit",
-            "Kurzfristige Abholung und Übernahme",
-            "Verfügbarkeit auch am Wochenende",
-            "Unterstützung am Abend und frühen Morgen",
-            "Backup bei Ausfall des primären Dienstleisters",
-            "Klar definierte Eskalationsprozesse",
-          ],
-        },
-        {
-          number: "03",
-          title: "Radiopharma-Logistikberatung",
-          intro:
-            "Für Hersteller, Radiopharmazien und universitäre Einrichtungen, die einen Partner suchen, der die gesamte Kette von der Produktion bis zur Klinik versteht – aufbauend auf unserer 6D™-Methodik.",
-          items: [
-            "Routenplanung und feste Lieferrouten",
-            "Transportdokumentation nach ADR und GDP",
-            "Gestaltung von Übergabeprozessen",
-            "Entwicklung von Standardarbeitsanweisungen (SOPs)",
-            "Operative Unterstützung und Prozessbegleitung",
-            "Koordination regulatorischer Anforderungen",
-          ],
-        },
-      ],
-      chain: {
-        title: "Von der Produktion bis zum Patienten",
-        steps: [
-          "Zyklotron / Radiopharmazie",
-          "ISOVIA",
-          "Klinik / PET-Zentrum",
-          "Patient",
-        ],
       },
     },
 
@@ -233,6 +186,116 @@ export const de = {
       body: "Ob geplanter Kurierauftrag, Notfalltransport oder eine Anfrage zu unseren Backup-Lösungen – wir freuen uns auf Ihre Nachricht.",
       primaryCta: "Transportberatung anfragen",
     },
+  },
+
+  radiopharmaLogistics: {
+    eyebrow: "Lösungen",
+    title: "Radiopharmazeutische Logistik",
+    intro:
+      "Für Radiopharmazien, PET-Zentren, nuklearmedizinische Abteilungen und die Hersteller, die sie beliefern – zeitkritische, radioaktive Präparate nach ADR Klasse 7, mit lückenloser Chain of Custody.",
+    areas: [
+      {
+        number: "01",
+        title: "Radiopharmazeutischer Kurierdienst",
+        intro:
+          "Geplante und kurzfristig abrufbare Transporte für zeitkritische, radioaktive Präparate – dokumentiert und unter Einhaltung der geltenden Strahlenschutz- und Gefahrgutvorschriften (ADR Klasse 7), mit lückenloser Chain of Custody von der Radiopharmazie bis zur Einrichtung.",
+        items: [
+          "Fluor-18 (F-18)",
+          "Gallium-68 (Ga-68)",
+          "Technetium-99m (Tc-99m)",
+          "Lutetium-177 (Lu-177)",
+          "Iod-131 (I-131)",
+          "Weitere zugelassene Materialien nach Absprache",
+        ],
+      },
+      {
+        number: "02",
+        title: "Notfall & Backup-Logistik",
+        intro:
+          "Unser wichtigster Leistungsbereich: die verlässliche Absicherung, wenn der primäre Transportdienstleister ausfällt oder kurzfristig zusätzlicher Bedarf entsteht. Zeitkritische Radiopharmazeutika verzeihen keine Verzögerung.",
+        items: [
+          "Notfalltransporte mit kurzer Reaktionszeit",
+          "Kurzfristige Abholung und Übernahme",
+          "Verfügbarkeit auch am Wochenende",
+          "Unterstützung am Abend und frühen Morgen",
+          "Backup bei Ausfall des primären Dienstleisters",
+          "Klar definierte Eskalationsprozesse",
+        ],
+      },
+      {
+        number: "03",
+        title: "Radiopharma-Logistikberatung",
+        intro:
+          "Für Hersteller, Radiopharmazien und universitäre Einrichtungen, die einen Partner suchen, der die gesamte Kette von der Produktion bis zur Klinik versteht – aufbauend auf unserer 6D™-Methodik.",
+        items: [
+          "Routenplanung und feste Lieferrouten",
+          "Transportdokumentation nach ADR und GDP",
+          "Gestaltung von Übergabeprozessen",
+          "Entwicklung von Standardarbeitsanweisungen (SOPs)",
+          "Operative Unterstützung und Prozessbegleitung",
+          "Koordination regulatorischer Anforderungen",
+        ],
+      },
+    ],
+    chain: {
+      title: "Von der Produktion bis zum Patienten",
+      steps: [
+        "Zyklotron / Radiopharmazie",
+        "ISOVIA",
+        "Klinik / PET-Zentrum",
+        "Patient",
+      ],
+    },
+  },
+
+  lifeScienceLogistics: {
+    eyebrow: "Lösungen",
+    title: "Life Science Logistik",
+    intro:
+      "Für Sponsoren, CROs und Forschungseinrichtungen – spezialisierte Logistik für klinische Studien, Zell- und Gentherapie sowie pharmazeutische Forschung: zuverlässig, konform und digital nachverfolgbar.",
+    imageAlt:
+      "Eine Fachkraft in Laborkittel und Kryohandschuhen hebt ein gefrorenes Probenrack aus einem Flüssigstickstoff-Transportbehälter, Kältenebel quillt über den Rand",
+    areas: [
+      {
+        number: "01",
+        title: "Klinische Studien",
+        intro:
+          "Zeitkritischer Transport zwischen Standorten und Laboren, mit definierten Lieferfenstern, Chain of Custody und voller Sendungsverfolgung.",
+        items: [
+          "Zeitkritische Sendungen",
+          "Standort-zu-Standort",
+          "Chain of Custody",
+          "Digitale Dokumentation",
+          "Regionale Backup-Kapazität",
+        ],
+      },
+      {
+        number: "02",
+        title: "Zell- und Gentherapie",
+        intro:
+          "Höchste Präzision für patientenbezogene Sendungen – koordinierter, zeitkritischer Transport mit strengen Handling- und Dokumentationsstandards.",
+        items: [
+          "Zeitkritischer Transport",
+          "Patientenbezogene Logistik",
+          "Kontrollierte Handhabung",
+          "Chain of Custody",
+          "Contingency-Support",
+        ],
+      },
+      {
+        number: "03",
+        title: "Pharmazeutische Forschung",
+        intro:
+          "Zuverlässige Logistik für sensible pharmazeutische und biologische Materialien.",
+        items: [
+          "Sensible pharmazeutische Materialien",
+          "Biologische Proben und Reagenzien",
+          "Temperaturgeführte Handhabung",
+          "Chain of Custody",
+          "Digitale Dokumentation",
+        ],
+      },
+    ],
   },
 
   nuclearMedicine: {
@@ -389,7 +452,7 @@ export const de = {
   },
 
   footer: {
-    tagline: "Radiopharmazeutische Logistik & Notfalltransport",
+    tagline: "Radiopharmazeutische und Life Science Logistik",
     navTitle: "Navigation",
     contactTitle: "Kontakt",
     legalTitle: "Rechtliches",

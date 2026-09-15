@@ -3,12 +3,23 @@ import type { Content } from "@/content/types";
 export const fr = {
   meta: {
     siteName: "ISOVIA",
-    tagline: "Logistique radiopharmaceutique & transport d'urgence",
+    tagline: "Logistique radiopharmaceutique et Sciences de la Vie",
     pages: {
       home: {
-        title: "ISOVIA – Logistique radiopharmaceutique & transport d'urgence",
+        title: "ISOVIA – Logistique radiopharmaceutique et Sciences de la Vie",
         description:
           "Partenaire spécialisé en logistique et en conseil pour les radiopharmaceutiques, la médecine nucléaire et la théranostique en Rhénanie-du-Nord–Westphalie, Hesse et Rhénanie-Palatinat. Transports d'urgence et de secours à délai de réaction court.",
+      },
+      radiopharmaLogistics: {
+        title: "Logistique radiopharmaceutique – Messagerie, urgence et conseil | ISOVIA",
+        description:
+          "Transport de messagerie planifié, logistique d'urgence et de secours, et conseil pour les radiopharmaceutiques en Rhénanie-du-Nord-Westphalie, Hesse et Rhénanie-Palatinat.",
+      },
+
+      lifeScienceLogistics: {
+        title: "Logistique Sciences de la Vie – Essais cliniques, thérapie cellulaire | ISOVIA",
+        description:
+          "Logistique spécialisée pour le secteur des sciences de la vie : envois urgents pour essais cliniques, transports liés au patient en thérapie cellulaire et génique, matériaux de recherche sensibles.",
       },
       nuclearMedicine: {
         title:
@@ -38,6 +49,8 @@ export const fr = {
     home: "Accueil",
     about: "À propos",
     services: "Services",
+    radiopharmaLogistics: "Logistique radiopharmaceutique",
+    lifeScienceLogistics: "Logistique Sciences de la Vie",
     responsibility: "Responsabilité",
     nuclearMedicine: "Médecine nucléaire",
     contact: "Contact",
@@ -60,7 +73,7 @@ export const fr = {
 
   home: {
     hero: {
-      eyebrow: "Logistique radiopharmaceutique & transport d'urgence",
+      eyebrow: "Logistique radiopharmaceutique et Sciences de la Vie",
       title: "Lorsque le temps compte, la logistique devient",
       titleAccent: "une composante des soins aux patients.",
       subtitle:
@@ -97,66 +110,6 @@ export const fr = {
         quote:
           "J'ai fondé ISOVIA parce que la logistique radiopharmaceutique exige bien plus que du transport. Elle exige une compréhension des opérations de santé critiques en termes de délais, des exigences réglementaires et des conséquences d'un échec de livraison.",
         imageAlt: "Portrait d'Alain Mugabo, fondateur et associé-gérant d'ISOVIA",
-      },
-    },
-
-    services: {
-      eyebrow: "Nos services",
-      title: "Trois domaines de services qui se complètent",
-      intro:
-        "Le transport de messagerie planifié pour les radiopharmaceutiques, la logistique d'urgence et de secours au cœur de notre offre, ainsi que des services logistiques et de conseil pour les fabricants et les grands comptes.",
-      areas: [
-        {
-          number: "01",
-          title: "Messagerie radiopharmaceutique",
-          intro:
-            "Transport planifié et à la demande pour des préparations radioactives critiques en termes de délais — documenté et conforme à la réglementation applicable en matière de radioprotection et de marchandises dangereuses (ADR classe 7), avec une chaîne de traçabilité ininterrompue depuis la radiopharmacie jusqu'à l'établissement.",
-          items: [
-            "Fluor-18 (F-18)",
-            "Gallium-68 (Ga-68)",
-            "Technetium-99m (Tc-99m)",
-            "Lutétium-177 (Lu-177)",
-            "Iode-131 (I-131)",
-            "Autres matières autorisées, sur demande",
-          ],
-        },
-        {
-          number: "02",
-          title: "Logistique d'urgence et de secours",
-          intro:
-            "Notre domaine de service le plus important : une couverture fiable lorsque votre transporteur principal fait défaut ou qu'une capacité supplémentaire est nécessaire dans un délai très court. Les radiopharmaceutiques critiques ne tolèrent aucun retard.",
-          items: [
-            "Transports d'urgence à délai de réaction court",
-            "Enlèvement à très court préavis",
-            "Disponibilité le week-end",
-            "Assistance en soirée et tôt le matin",
-            "Solution de secours en cas de défaillance du transporteur",
-            "Processus d'escalade clairement définis",
-          ],
-        },
-        {
-          number: "03",
-          title: "Conseil en logistique radiopharmaceutique",
-          intro:
-            "Pour les fabricants, les radiopharmacies et les établissements universitaires à la recherche d'un partenaire comprenant l'ensemble de la chaîne, de la production à l'hôpital — fondé sur notre méthodologie 6D™.",
-          items: [
-            "Planification des itinéraires et circuits fixes",
-            "Documentation conforme aux normes ADR et BPD (GDP)",
-            "Conception des processus de remise et de prise en charge",
-            "Élaboration de procédures opérationnelles normalisées (SOP)",
-            "Accompagnement opérationnel et suivi des processus",
-            "Coordination des exigences réglementaires",
-          ],
-        },
-      ],
-      chain: {
-        title: "De la production au patient",
-        steps: [
-          "Cyclotron / Radiopharmacie",
-          "ISOVIA",
-          "Hôpital / Centre TEP",
-          "Patient",
-        ],
       },
     },
 
@@ -238,6 +191,116 @@ export const fr = {
       body: "Qu'il s'agisse d'une commande de messagerie planifiée, d'un transport d'urgence ou d'une demande concernant nos solutions de secours — nous serons heureux de recevoir votre message.",
       primaryCta: "Demander une consultation transport",
     },
+  },
+
+  radiopharmaLogistics: {
+    eyebrow: "Solutions",
+    title: "Logistique radiopharmaceutique",
+    intro:
+      "Pour les radiopharmacies, les centres TEP, les services de médecine nucléaire et les fabricants qui les approvisionnent — des préparations radioactives critiques en termes de délais, transportées sous ADR classe 7 avec une chaîne de traçabilité ininterrompue.",
+    areas: [
+      {
+        number: "01",
+        title: "Messagerie radiopharmaceutique",
+        intro:
+          "Transport planifié et à la demande pour des préparations radioactives critiques en termes de délais — documenté et conforme à la réglementation applicable en matière de radioprotection et de marchandises dangereuses (ADR classe 7), avec une chaîne de traçabilité ininterrompue depuis la radiopharmacie jusqu'à l'établissement.",
+        items: [
+          "Fluor-18 (F-18)",
+          "Gallium-68 (Ga-68)",
+          "Technetium-99m (Tc-99m)",
+          "Lutétium-177 (Lu-177)",
+          "Iode-131 (I-131)",
+          "Autres matières autorisées, sur demande",
+        ],
+      },
+      {
+        number: "02",
+        title: "Logistique d'urgence et de secours",
+        intro:
+          "Notre domaine de service le plus important : une couverture fiable lorsque votre transporteur principal fait défaut ou qu'une capacité supplémentaire est nécessaire dans un délai très court. Les radiopharmaceutiques critiques ne tolèrent aucun retard.",
+        items: [
+          "Transports d'urgence à délai de réaction court",
+          "Enlèvement à très court préavis",
+          "Disponibilité le week-end",
+          "Assistance en soirée et tôt le matin",
+          "Solution de secours en cas de défaillance du transporteur",
+          "Processus d'escalade clairement définis",
+        ],
+      },
+      {
+        number: "03",
+        title: "Conseil en logistique radiopharmaceutique",
+        intro:
+          "Pour les fabricants, les radiopharmacies et les établissements universitaires à la recherche d'un partenaire comprenant l'ensemble de la chaîne, de la production à l'hôpital — fondé sur notre méthodologie 6D™.",
+        items: [
+          "Planification des itinéraires et circuits fixes",
+          "Documentation conforme aux normes ADR et BPD (GDP)",
+          "Conception des processus de remise et de prise en charge",
+          "Élaboration de procédures opérationnelles normalisées (SOP)",
+          "Accompagnement opérationnel et suivi des processus",
+          "Coordination des exigences réglementaires",
+        ],
+      },
+    ],
+    chain: {
+      title: "De la production au patient",
+      steps: [
+        "Cyclotron / Radiopharmacie",
+        "ISOVIA",
+        "Hôpital / Centre TEP",
+        "Patient",
+      ],
+    },
+  },
+
+  lifeScienceLogistics: {
+    eyebrow: "Solutions",
+    title: "Logistique Sciences de la Vie",
+    intro:
+      "Pour les promoteurs, les CRO et les organismes de recherche — une logistique spécialisée pour les essais cliniques, la thérapie cellulaire et génique et la recherche pharmaceutique : fiable, conforme et traçable numériquement.",
+    imageAlt:
+      "Une personne en blouse et gants cryogéniques sort un portoir d'échantillons congelés d'un conteneur à azote liquide, la vapeur froide débordant sur le côté",
+    areas: [
+      {
+        number: "01",
+        title: "Essais cliniques",
+        intro:
+          "Transport critique entre sites et laboratoires, avec fenêtres de livraison définies, chaîne de traçabilité et visibilité totale des envois.",
+        items: [
+          "Envois urgents",
+          "Transport site à site",
+          "Chaîne de traçabilité",
+          "Documentation numérique",
+          "Capacité de secours régionale",
+        ],
+      },
+      {
+        number: "02",
+        title: "Thérapie cellulaire et génique",
+        intro:
+          "Précision extrême pour des envois liés à un patient — transport coordonné et critique, avec normes strictes de manutention et de documentation.",
+        items: [
+          "Transport urgent",
+          "Logistique patient-spécifique",
+          "Manutention contrôlée",
+          "Chaîne de traçabilité",
+          "Support de secours",
+        ],
+      },
+      {
+        number: "03",
+        title: "Recherche pharmaceutique",
+        intro:
+          "Logistique fiable pour matériaux pharmaceutiques et biologiques sensibles.",
+        items: [
+          "Matériaux pharmaceutiques sensibles",
+          "Échantillons et réactifs biologiques",
+          "Manutention à température dirigée",
+          "Chaîne de traçabilité",
+          "Documentation numérique",
+        ],
+      },
+    ],
   },
 
   nuclearMedicine: {
@@ -394,7 +457,7 @@ export const fr = {
   },
 
   footer: {
-    tagline: "Logistique radiopharmaceutique & transport d'urgence",
+    tagline: "Logistique radiopharmaceutique et Sciences de la Vie",
     navTitle: "Navigation",
     contactTitle: "Contact",
     legalTitle: "Informations légales",

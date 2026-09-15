@@ -73,6 +73,10 @@ export default async function LocaleLayout({
     <html
       lang={localeHtmlLang[locale]}
       className={archivo.variable}
+      // globals.css sets `scroll-behavior: smooth` for the anchored home-page
+      // sections; this tells Next the smoothing is deliberate so it keeps it
+      // during route transitions instead of warning about it.
+      data-scroll-behavior="smooth"
     >
       <body className="flex min-h-screen flex-col">
         <a
