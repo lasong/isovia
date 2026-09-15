@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
 import type { Content } from "@/content/types";
 import type { Locale } from "@/lib/i18n";
-import { SITE, href, legalNav, navHref, primaryNav } from "@/lib/site";
+import { SITE, href, legalNav, navHref, footerNav } from "@/lib/site";
 
 export function Footer({
   locale,
@@ -31,7 +31,7 @@ export function Footer({
             {content.footer.navTitle}
           </h2>
           <ul className="mt-4 space-y-2.5 text-sm">
-            {primaryNav.map((item) => (
+            {footerNav.map((item) => (
               <li key={`${item.kind}:${item.key}`}>
                 <Link
                   href={navHref(locale, item)}

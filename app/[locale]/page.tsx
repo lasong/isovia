@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowRight, Check, ChevronRight, Quote } from "lucide-react";
+import { ArrowRight, Quote } from "lucide-react";
 import { getContent } from "@/lib/content";
 import { isLocale } from "@/lib/i18n";
 import { buildMetadata } from "@/lib/metadata";
@@ -10,7 +10,6 @@ import { href } from "@/lib/site";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { CtaBand } from "@/components/sections/CtaBand";
-import { cn } from "@/lib/utils";
 
 export async function generateMetadata({
   params,
@@ -23,9 +22,10 @@ export async function generateMetadata({
 }
 
 /**
- * One-page site. Services, About and Responsibility are sections here rather
- * than routes, which is what let the duplicated services cards, 6D block and
- * founder quote collapse into a single instance each.
+ * About and Responsibility are anchored sections here rather than routes. The
+ * two solutions are pages of their own, reached from the Services dropdown:
+ * they serve different customers, so neither belongs in the other's reading
+ * flow and neither belongs in the middle of the home page.
  */
 export default async function HomePage({
   params,
@@ -36,15 +36,8 @@ export default async function HomePage({
   if (!isLocale(locale)) notFound();
 
   const content = getContent(locale);
-  const {
-    hero,
-    stats,
-    about,
-    services,
-    emergency,
-    responsibility,
-    nuclearTeaser,
-  } = content.home;
+  const { hero, stats, about, emergency, responsibility, nuclearTeaser } =
+    content.home;
 
   return (
     <>
@@ -153,113 +146,6 @@ export default async function HomePage({
               </blockquote>
             </figure>
           </div>
-        </div>
-      </section>
-
-      {/* ------------------------------------------------------------ Services */}
-      <section
-        id="services"
-        className="container-page scroll-mt-24 py-16 lg:py-24"
-      >
-        <div className="max-w-3xl">
-          <p className="eyebrow text-accent">{services.eyebrow}</p>
-          <h2 className="text-primary mt-3 text-3xl leading-tight sm:text-4xl">
-            {services.title}
-          </h2>
-          <p className="text-muted-foreground mt-5 text-base leading-relaxed sm:text-lg">
-            {services.intro}
-          </p>
-        </div>
-
-        <div className="mt-12 space-y-12">
-          {services.areas.map((area, index) => {
-            // Area 02 is Emergency & Backup — the client's self-declared most
-            // important service, so it carries the coral treatment.
-            const isEmergency = index === 1;
-            return (
-              <article
-                key={area.number}
-                className="grid gap-6 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16"
-              >
-                <div>
-                  <p
-                    className={cn(
-                      "font-display text-5xl font-bold",
-                      isEmergency ? "text-accent" : "text-primary/25",
-                    )}
-                  >
-                    {area.number}
-                  </p>
-                  <h3 className="text-primary mt-3 text-xl leading-tight sm:text-2xl">
-                    {area.title}
-                  </h3>
-                </div>
-
-                <div>
-                  <p className="text-muted-foreground text-base leading-relaxed">
-                    {area.intro}
-                  </p>
-                  <ul
-                    className={cn(
-                      "mt-6 grid gap-2.5 rounded-2xl border p-6 sm:grid-cols-2",
-                      isEmergency
-                        ? "border-accent/25 bg-accent-tint"
-                        : "border-border bg-card",
-                    )}
-                  >
-                    {area.items.map((item) => (
-                      <li
-                        key={item}
-                        className="text-foreground flex items-start gap-2.5 text-sm"
-                      >
-                        <Check
-                          className={cn(
-                            "mt-0.5 size-4 shrink-0",
-                            isEmergency ? "text-accent" : "text-primary",
-                          )}
-                          strokeWidth={2.5}
-                        />
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </article>
-            );
-          })}
-        </div>
-
-        {/* Supply chain */}
-        <div className="mt-16">
-          <h3 className="text-primary text-xl sm:text-2xl">
-            {services.chain.title}
-          </h3>
-          <ol className="mt-6 flex flex-col gap-2 lg:flex-row lg:items-center">
-            {services.chain.steps.map((step, index) => {
-              const isIsovia = step === "ISOVIA";
-              return (
-                <li key={step} className="flex items-center gap-2 lg:flex-1">
-                  <div
-                    className={cn(
-                      "w-full rounded-xl border px-5 py-3.5 text-center text-sm font-medium",
-                      isIsovia
-                        ? "border-accent bg-accent text-white"
-                        : "border-border bg-card text-foreground",
-                    )}
-                  >
-                    {step}
-                  </div>
-                  {index < services.chain.steps.length - 1 ? (
-                    <ChevronRight
-                      aria-hidden
-                      className="text-muted-foreground size-5 shrink-0 rotate-90 lg:rotate-0"
-                      strokeWidth={2}
-                    />
-                  ) : null}
-                </li>
-              );
-            })}
-          </ol>
         </div>
       </section>
 

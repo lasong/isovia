@@ -3,12 +3,23 @@ import type { Content } from "@/content/types";
 export const en = {
   meta: {
     siteName: "ISOVIA",
-    tagline: "Radiopharmaceutical Logistics & Emergency Transport",
+    tagline: "Radiopharmaceutical & Life Science Logistics",
     pages: {
       home: {
-        title: "ISOVIA – Radiopharmaceutical Logistics & Emergency Transport",
+        title: "ISOVIA – Radiopharmaceutical & Life Science Logistics",
         description:
           "Specialised logistics and advisory partner for radiopharmaceuticals, nuclear medicine and theranostics across North Rhine-Westphalia, Hesse and Rhineland-Palatinate. Emergency and backup transport with short response times.",
+      },
+      radiopharmaLogistics: {
+        title: "Radiopharmaceutical Logistics – Courier, Emergency & Advisory | ISOVIA",
+        description:
+          "Scheduled courier transport, emergency and backup logistics, and advisory services for radiopharmaceuticals across North Rhine-Westphalia, Hesse and Rhineland-Palatinate.",
+      },
+
+      lifeScienceLogistics: {
+        title: "Life Science Logistics – Clinical Trials, Cell & Gene Therapy | ISOVIA",
+        description:
+          "Specialised logistics for the Life Sciences sector: time-critical clinical trial shipments, patient-linked cell and gene therapy transport, and sensitive research materials.",
       },
       nuclearMedicine: {
         title: "About Nuclear Medicine – PET, SPECT & Theranostics | ISOVIA",
@@ -37,6 +48,8 @@ export const en = {
     home: "Home",
     about: "About",
     services: "Services",
+    radiopharmaLogistics: "Radiopharmaceutical Logistics",
+    lifeScienceLogistics: "Life Science Logistics",
     responsibility: "Responsibility",
     nuclearMedicine: "Nuclear Medicine",
     contact: "Contact",
@@ -59,7 +72,7 @@ export const en = {
 
   home: {
     hero: {
-      eyebrow: "Radiopharmaceutical Logistics & Emergency Transport",
+      eyebrow: "Radiopharmaceutical & Life Science Logistics",
       title: "When time matters, logistics becomes",
       titleAccent: "part of patient care.",
       subtitle:
@@ -93,66 +106,6 @@ export const en = {
         quote:
           "I founded ISOVIA because radiopharmaceutical logistics requires more than transportation. It requires an understanding of time-critical healthcare operations, regulatory requirements and the consequences of a delivery failure.",
         imageAlt: "Portrait of Alain Mugabo, founder and managing partner of ISOVIA",
-      },
-    },
-
-    services: {
-      eyebrow: "Our services",
-      title: "Three service areas that build on one another",
-      intro:
-        "Scheduled courier transport for radiopharmaceuticals, emergency and backup logistics as the core of our offering, and logistics and advisory services for manufacturers and larger customers.",
-      areas: [
-        {
-          number: "01",
-          title: "Radiopharmaceutical Courier",
-          intro:
-            "Scheduled and on-demand transport for time-critical, radioactive preparations — documented and compliant with applicable radiation protection and dangerous goods regulations (ADR Class 7), with an unbroken chain of custody from the radiopharmacy to the facility.",
-          items: [
-            "Fluorine-18 (F-18)",
-            "Gallium-68 (Ga-68)",
-            "Technetium-99m (Tc-99m)",
-            "Lutetium-177 (Lu-177)",
-            "Iodine-131 (I-131)",
-            "Other approved materials by arrangement",
-          ],
-        },
-        {
-          number: "02",
-          title: "Emergency & Backup Logistics",
-          intro:
-            "Our most important service area: dependable coverage when your primary carrier fails or additional capacity is needed at short notice. Time-critical radiopharmaceuticals allow no room for delay.",
-          items: [
-            "Emergency transport with short response times",
-            "Short-notice collection",
-            "Weekend availability",
-            "Evening and early-morning support",
-            "Backup in case of primary carrier failure",
-            "Clearly defined escalation processes",
-          ],
-        },
-        {
-          number: "03",
-          title: "Radiopharma Logistics Advisory",
-          intro:
-            "For manufacturers, radiopharmacies and university facilities seeking a partner who understands the entire chain from production to hospital — built on our 6D™ methodology.",
-          items: [
-            "Route planning and fixed delivery routes",
-            "Transport documentation to ADR and GDP standards",
-            "Design of handover and collection processes",
-            "Development of standard operating procedures (SOPs)",
-            "Operational support and process guidance",
-            "Coordination of regulatory requirements",
-          ],
-        },
-      ],
-      chain: {
-        title: "From production to patient",
-        steps: [
-          "Cyclotron / Radiopharmacy",
-          "ISOVIA",
-          "Hospital / PET Centre",
-          "Patient",
-        ],
       },
     },
 
@@ -234,6 +187,116 @@ export const en = {
       body: "Whether it's a scheduled courier order, an emergency transport, or an enquiry about our backup solutions — we look forward to hearing from you.",
       primaryCta: "Request a transport consultation",
     },
+  },
+
+  radiopharmaLogistics: {
+    eyebrow: "Solutions",
+    title: "Radiopharmaceutical Logistics",
+    intro:
+      "For radiopharmacies, PET centres, nuclear medicine departments and the manufacturers that supply them — time-critical, radioactive preparations moved under ADR Class 7 with an unbroken chain of custody.",
+    areas: [
+      {
+        number: "01",
+        title: "Radiopharmaceutical Courier",
+        intro:
+          "Scheduled and on-demand transport for time-critical, radioactive preparations — documented and compliant with applicable radiation protection and dangerous goods regulations (ADR Class 7), with an unbroken chain of custody from the radiopharmacy to the facility.",
+        items: [
+          "Fluorine-18 (F-18)",
+          "Gallium-68 (Ga-68)",
+          "Technetium-99m (Tc-99m)",
+          "Lutetium-177 (Lu-177)",
+          "Iodine-131 (I-131)",
+          "Other approved materials by arrangement",
+        ],
+      },
+      {
+        number: "02",
+        title: "Emergency & Backup Logistics",
+        intro:
+          "Our most important service area: dependable coverage when your primary carrier fails or additional capacity is needed at short notice. Time-critical radiopharmaceuticals allow no room for delay.",
+        items: [
+          "Emergency transport with short response times",
+          "Short-notice collection",
+          "Weekend availability",
+          "Evening and early-morning support",
+          "Backup in case of primary carrier failure",
+          "Clearly defined escalation processes",
+        ],
+      },
+      {
+        number: "03",
+        title: "Radiopharma Logistics Advisory",
+        intro:
+          "For manufacturers, radiopharmacies and university facilities seeking a partner who understands the entire chain from production to hospital — built on our 6D™ methodology.",
+        items: [
+          "Route planning and fixed delivery routes",
+          "Transport documentation to ADR and GDP standards",
+          "Design of handover and collection processes",
+          "Development of standard operating procedures (SOPs)",
+          "Operational support and process guidance",
+          "Coordination of regulatory requirements",
+        ],
+      },
+    ],
+    chain: {
+      title: "From production to patient",
+      steps: [
+        "Cyclotron / Radiopharmacy",
+        "ISOVIA",
+        "Hospital / PET Centre",
+        "Patient",
+      ],
+    },
+  },
+
+  lifeScienceLogistics: {
+    eyebrow: "Solutions",
+    title: "Life Science Logistics",
+    intro:
+      "For sponsors, CROs and research organisations — specialised logistics for clinical trials, cell and gene therapy and pharmaceutical research: reliable, compliant and digitally traceable.",
+    imageAlt:
+      "A technician in a lab coat and cryogenic gloves lifting a frozen sample rack out of a liquid-nitrogen shipper, vapour spilling over the side",
+    areas: [
+      {
+        number: "01",
+        title: "Clinical Trials",
+        intro:
+          "Time-critical transport between sites and labs, with defined delivery windows, chain of custody and full shipment visibility.",
+        items: [
+          "Time-critical shipments",
+          "Site-to-site transport",
+          "Chain of custody",
+          "Digital documentation",
+          "Regional backup capacity",
+        ],
+      },
+      {
+        number: "02",
+        title: "Cell & Gene Therapy",
+        intro:
+          "Exceptional precision for patient-linked shipments — coordinated, time-critical transport with strict handling and documentation standards.",
+        items: [
+          "Time-critical transport",
+          "Patient-specific logistics",
+          "Controlled handling",
+          "Chain of custody",
+          "Contingency support",
+        ],
+      },
+      {
+        number: "03",
+        title: "Pharmaceutical Research",
+        intro:
+          "Reliable logistics for sensitive pharmaceutical and biological materials.",
+        items: [
+          "Sensitive pharmaceutical materials",
+          "Biological samples and reagents",
+          "Temperature-controlled handling",
+          "Chain of custody",
+          "Digital documentation",
+        ],
+      },
+    ],
   },
 
   nuclearMedicine: {
@@ -390,7 +453,7 @@ export const en = {
   },
 
   footer: {
-    tagline: "Radiopharmaceutical Logistics & Emergency Transport",
+    tagline: "Radiopharmaceutical & Life Science Logistics",
     navTitle: "Navigation",
     contactTitle: "Contact",
     legalTitle: "Legal",

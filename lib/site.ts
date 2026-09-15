@@ -31,15 +31,10 @@ export const SITE = {
 export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ?? "https://isovia.eu";
 
-/**
- * Real routes. Services, About and Responsibility are deliberately absent:
- * they are anchored sections of the home page rather than pages of their own,
- * which is what removed the duplicated services/6D/founder blocks.
- * Slugs stay stable across locales — a per-locale slug map would add a
- * translation layer to routing for negligible SEO benefit.
- */
 export const routes = {
   home: "",
+  radiopharmaLogistics: "radiopharmaceutical-logistics",
+  lifeScienceLogistics: "life-science-logistics",
   nuclearMedicine: "nuclear-medicine",
   contact: "contact",
   imprint: "imprint",
@@ -51,7 +46,6 @@ export type RouteKey = keyof typeof routes;
 /** Anchored sections of the home page. */
 export const sections = {
   about: "about",
-  services: "services",
   responsibility: "responsibility",
 } as const;
 
@@ -68,21 +62,41 @@ export function sectionHref(locale: Locale, key: SectionKey): string {
 
 export type NavItem =
   | { kind: "section"; key: SectionKey }
-  | { kind: "route"; key: RouteKey };
+  | { kind: "route"; key: RouteKey }
+  /** A label that opens a dropdown rather than going anywhere itself. */
+  | { kind: "menu"; key: "services"; children: RouteKey[] };
 
 /** Header and footer navigation, in order. */
 export const primaryNav: NavItem[] = [
   { kind: "section", key: "about" },
-  { kind: "section", key: "services" },
   { kind: "section", key: "responsibility" },
+  {
+    kind: "menu",
+    key: "services",
+    children: ["radiopharmaLogistics", "lifeScienceLogistics"],
+  },
   { kind: "route", key: "nuclearMedicine" },
   { kind: "route", key: "contact" },
 ];
 
+/**
+ * Footer navigation: the dropdown has no destination of its own, so it
+ * flattens into the two solution pages rather than appearing as a dead label.
+ */
+export const footerNav: Exclude<NavItem, { kind: "menu" }>[] =
+  primaryNav.flatMap((item) =>
+    item.kind === "menu"
+      ? item.children.map((key) => ({ kind: "route" as const, key }))
+      : [item],
+  );
+
 export const legalNav: RouteKey[] = ["imprint", "privacy"];
 
-/** Resolve a nav item to its href. */
-export function navHref(locale: Locale, item: NavItem): string {
+/** Resolve a nav item to its href. Menu labels have none — they open. */
+export function navHref(
+  locale: Locale,
+  item: Exclude<NavItem, { kind: "menu" }>,
+): string {
   return item.kind === "route"
     ? href(locale, item.key)
     : sectionHref(locale, item.key);
